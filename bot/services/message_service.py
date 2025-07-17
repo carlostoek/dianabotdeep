@@ -1,5 +1,4 @@
 # REF: handlers/start_handler.py > /start command response
-from bot.config import FREE_CHANNEL_LINK, VIP_CHANNEL_LINK
 
 def get_welcome_message(name: str) -> str:
     """

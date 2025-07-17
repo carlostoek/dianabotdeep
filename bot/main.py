@@ -3,8 +3,8 @@
 
 import asyncio
 from aiogram import Bot, Dispatcher
-from bot.handlers import start_handler
-from bot.config import BOT_TOKEN
+from handlers import start_handler
+from config import BOT_TOKEN
 
 async def main():
     # Inicialización del bot con token

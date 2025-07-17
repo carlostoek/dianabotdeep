@@ -3,7 +3,7 @@
 
 from aiogram import Router, types
 from aiogram.filters import Command
-from bot.services.message_service import get_welcome_message
+from services.message_service import get_welcome_message
 
 # Inicializar router para manejo de comandos
 start_router = Router()
